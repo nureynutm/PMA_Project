@@ -23,4 +23,4 @@ jobs:
           pip install pandas pytest
 
       - name: Run tests
-        run: python test_model.py
+        run: pytest -v
